@@ -1,0 +1,5 @@
+{
+  "startingBalance": 10000,
+  "currentBalance": 10000,
+  "targetBalance": 200000
+}

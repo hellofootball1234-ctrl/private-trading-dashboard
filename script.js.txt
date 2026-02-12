@@ -1,0 +1,7 @@
+let currentBalance = 10000;
+
+function addTrade() {
+  let pl = Number(document.getElementById("pl").value);
+  currentBalance += pl;
+  document.getElementById("currentBal").innerText = currentBalance;
+}
