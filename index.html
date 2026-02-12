@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Private Trading Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📊 Trading Progress Dashboard</h1>
+
+<div class="card">
+  <p>Starting Balance: ₦<span id="startBal">10000</span></p>
+  <p>Current Balance: ₦<span id="currentBal">10000</span></p>
+  <p>Target Balance: ₦200,000</p>
+</div>
+
+<div class="card">
+  <p>Daily Target: ₦10,000</p>
+  <p>Expected Weekly Profit: ₦<span id="weeklyProfit"></span></p>
+</div>
+
+<div class="progress">
+  <div id="progressBar"></div>
+</div>
+
+<h2>➕ Add Trade</h2>
+<input id="pl" type="number" placeholder="Profit / Loss (₦)">
+<button onclick="addTrade()">Add</button>
+
+<script src="script.js"></script>
+</body>
+</html>
