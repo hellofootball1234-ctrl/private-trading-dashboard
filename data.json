@@ -1,0 +1,25 @@
+{
+  "account": {
+    "startingBalance": 10000,
+    "currentBalance": 10000,
+    "targetBalance": 200000,
+    "dailyTarget": 10000,
+    "weeklyTarget": 50000
+  },
+
+  "riskManagement": {
+    "maxRiskPercent": 2,
+    "maxDailyTrades": 2,
+    "recommendedRR": "1:3",
+    "maxMonthlyTrades": 20
+  },
+
+  "trades": [],
+
+  "highImpactNewsDays": [
+    "NFP",
+    "CPI",
+    "FOMC",
+    "Interest Rate Decision"
+  ]
+}
